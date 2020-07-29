@@ -1,13 +1,6 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 
-
-const MaterialUI = () => {
-    return (
-        <div>
-            <Button color="primary">Botão do Material-UI</Button>
-        </div>
-    );
-};
+const MaterialUI = () => <Button color="primary">Botão do Material-UI</Button>;
 
 export default MaterialUI;
