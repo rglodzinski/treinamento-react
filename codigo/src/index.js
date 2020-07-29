@@ -11,7 +11,8 @@ import * as serviceWorker from "./serviceWorker";
 
 // import Aula1 from "./aula1/components";
 // import Aula2 from "./aula2/components";
-import Aula3 from "./aula3";
+// import Aula3 from "./aula3";
+import Aula4 from "./aula4";
 
 /*
 ReactDOM.render(
@@ -80,9 +81,18 @@ ReactDOM.render(
 );
 */
 
+/*
 ReactDOM.render(
   <React.StrictMode>
     <Aula3 />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+*/
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Aula4 />
   </React.StrictMode>,
   document.getElementById("root")
 );
