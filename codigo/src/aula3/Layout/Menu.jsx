@@ -1,28 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "./menu.scss";
+
 const Menu = () => {
+
     return (
         <nav>
-            <ul>
-                <li>
-                    <Link to="/">Painel</Link>
-                </li>
-                <li>
-                    <Link to="/sobre">Sobre</Link>
-                </li>
-                <li>
-                    <Link to="/usuarios">Usuários</Link>
-                </li>
-                <li>
-                    <Link to="/topicos">Tópicos</Link>
-                </li>
-                <li>
-                    <Link to="/css">Exemplos de Uso de CSS</Link>
-                </li>
-                <li>
-                    <Link to="/bootstrap">Bootstrap</Link>
-                </li>
+            <ul className="menu">
+                <li><Link to="/">Painel</Link></li>
+                <li><Link to="/sobre">Sobre</Link></li>
+                <li><Link to="/usuarios">Usuários</Link></li>
+                <li><Link to="/topicos">Tópicos</Link></li>
+                <li><Link to="/css">Exemplos de Uso de CSS</Link></li>
+                <li><Link to="/bootstrap">Bootstrap</Link></li>
+                <li><Link to="/material-ui">Material-UI</Link></li>
             </ul>
         </nav>
     );

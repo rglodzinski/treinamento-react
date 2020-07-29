@@ -9,7 +9,10 @@ const App = () => {
         <Router>
             <React.Fragment>
                 <Menu />
-                <Routes />
+                <br />
+                <div className="container">
+                    <Routes />
+                </div>
             </React.Fragment>
         </Router>
     );
