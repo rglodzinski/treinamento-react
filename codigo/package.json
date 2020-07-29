@@ -5,6 +5,10 @@
   "dependencies": {
     "@govbr/design-system": "file:dsgov-latest.tgz",
     "@material-ui/core": "^4.11.0",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/paper-badge": "^3.1.0",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-icon-button": "^3.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -19,6 +23,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
     "reactstrap": "^8.5.1",
+    "remove": "^0.1.5",
     "starscream-theme": "git+https://www-scm.prevnet/copd/starscream-theme.git"
   },
   "scripts": {
