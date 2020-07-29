@@ -3,19 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@govbr/design-system": "file:dsgov-latest.tgz",
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
+    "dtp-react-components": "git+https://www-scm.prevnet/copd/dtp-react-components.git",
+    "libicons": "git+https://www-scm.prevnet/copd/libicons.git",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
-    "reactstrap": "^8.5.1"
+    "reactstrap": "^8.5.1",
+    "starscream-theme": "git+https://www-scm.prevnet/copd/starscream-theme.git"
   },
   "scripts": {
     "start": "react-scripts start",
