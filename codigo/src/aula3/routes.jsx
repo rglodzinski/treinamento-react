@@ -9,6 +9,7 @@ import UsoDeCss from "./Pages/UsoDeCss";
 import Bootstrap from "./Pages/Bootstrap";
 import MaterialUI from "./Pages/MaterialUI";
 import DtpReactComponents from "./Pages/DtpReactComponents";
+import DSGov from "./Pages/DSGov";
 
 const Routes = () => {
     return (
@@ -21,6 +22,7 @@ const Routes = () => {
             <Route path="/bootstrap" component={Bootstrap} />
             <Route path="/material-ui" component={MaterialUI} />
             <Route path="/drc" component={DtpReactComponents} />
+            <Route path="/dsgov" component={DSGov} />
         </Switch>
     );
 };

@@ -16,6 +16,7 @@ const Menu = () => {
                 <li><Link to="/bootstrap">Bootstrap</Link></li>
                 <li><Link to="/material-ui">Material-UI</Link></li>
                 <li><Link to="/drc">Starscream-Theme + Dtp-React-Components</Link></li>
+                <li><Link to="/dsgov">DS Gov</Link></li>
             </ul>
         </nav>
     );
