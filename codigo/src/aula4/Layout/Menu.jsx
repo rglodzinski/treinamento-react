@@ -8,7 +8,8 @@ const Menu = () => {
     return (
         <nav>
             <ul className="menu">
-                <li><Link to="/">Refs</Link></li>
+                <li><Link to="/">Início</Link></li>
+                <li><Link to="/refs">Refs</Link></li>
             </ul>
         </nav>
     );
