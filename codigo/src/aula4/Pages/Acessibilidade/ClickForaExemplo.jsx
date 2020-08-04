@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class ClickForaExemplo extends Component {
     constructor(props) {
@@ -12,11 +12,11 @@ class ClickForaExemplo extends Component {
     }
 
     componentDidMount() {
-        window.addEventListener('click', this.onClickOutsideHandler);
+        window.addEventListener("click", this.onClickOutsideHandler);
     }
 
     componentWillUnmount() {
-        window.removeEventListener('click', this.onClickOutsideHandler);
+        window.removeEventListener("click", this.onClickOutsideHandler);
     }
 
     onClickHandler() {
