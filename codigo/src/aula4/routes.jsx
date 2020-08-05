@@ -6,6 +6,7 @@ import Refs from "./Pages/Refs";
 import Acessibilidade from "./Pages/Acessibilidade";
 import Contexto from "./Pages/Contexto";
 import ErrorBoundaryView from "./Pages/ErrorBoundary";
+import Hocs from "./Pages/HOCs";
 
 const Routes = () => {
     return (
@@ -15,6 +16,7 @@ const Routes = () => {
             <Route path="/acessibilidade" component={Acessibilidade} />
             <Route path="/contexto" component={Contexto} />
             <Route path="/error-boundary" component={ErrorBoundaryView} />
+            <Route path="/hocs" component={Hocs} />
         </Switch>
     );
 };
