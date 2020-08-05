@@ -1,7 +1,7 @@
 import React from "react";
 
 const Painel = () => {
-    return (<div>Página Inicial</div>);
+    return (<div>Aula 3</div>);
 };
 
 export default Painel;
