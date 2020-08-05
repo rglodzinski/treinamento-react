@@ -8,6 +8,7 @@ const App = () => {
     return (
         <Router>
             <React.Fragment>
+                <div id="modal-root"></div>
                 <Menu />
                 <br />
                 <div className="container">

@@ -13,7 +13,7 @@ const Menu = () => {
                 <li><Link to="/acessibilidade">Acessibilidade</Link></li>
                 <li><Link to="/contexto">Contexto</Link></li>
                 <li><Link to="/error-boundary">ErrorBoundaries</Link></li>
-                <li><Link to="/hocs">HOCs</Link></li>
+                <li><Link to="/portals">Portals</Link></li>
             </ul>
         </nav>
     );

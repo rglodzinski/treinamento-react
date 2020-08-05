@@ -7,6 +7,7 @@ import Acessibilidade from "./Pages/Acessibilidade";
 import Contexto from "./Pages/Contexto";
 import ErrorBoundaryView from "./Pages/ErrorBoundary";
 import Hocs from "./Pages/HOCs";
+import Portals from "./Pages/Portals";
 
 const Routes = () => {
     return (
@@ -17,6 +18,7 @@ const Routes = () => {
             <Route path="/contexto" component={Contexto} />
             <Route path="/error-boundary" component={ErrorBoundaryView} />
             <Route path="/hocs" component={Hocs} />
+            <Route path="/portals" component={Portals} />
         </Switch>
     );
 };
