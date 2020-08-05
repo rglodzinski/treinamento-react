@@ -14,6 +14,7 @@ const Menu = () => {
                 <li><Link to="/contexto">Contexto</Link></li>
                 <li><Link to="/error-boundary">ErrorBoundaries</Link></li>
                 <li><Link to="/portals">Portals</Link></li>
+                <li><Link to="/prop-types">Prop-Types</Link></li>
             </ul>
         </nav>
     );

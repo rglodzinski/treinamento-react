@@ -8,6 +8,7 @@ import Contexto from "./Pages/Contexto";
 import ErrorBoundaryView from "./Pages/ErrorBoundary";
 import Hocs from "./Pages/HOCs";
 import Portals from "./Pages/Portals";
+import PropTypesChecking from "./Pages/PropTypes";
 
 const Routes = () => {
     return (
@@ -19,6 +20,7 @@ const Routes = () => {
             <Route path="/error-boundary" component={ErrorBoundaryView} />
             <Route path="/hocs" component={Hocs} />
             <Route path="/portals" component={Portals} />
+            <Route path="/prop-types" component={PropTypesChecking} />
         </Switch>
     );
 };
