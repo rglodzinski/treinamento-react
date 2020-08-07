@@ -12,6 +12,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "dtp-react-components": "git+https://www-scm.prevnet/copd/dtp-react-components.git",
@@ -25,7 +29,8 @@
     "react-scripts": "^3.4.1",
     "reactstrap": "^8.5.1",
     "remove": "^0.1.5",
-    "starscream-theme": "git+https://www-scm.prevnet/copd/starscream-theme.git"
+    "starscream-theme": "git+https://www-scm.prevnet/copd/starscream-theme.git",
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "start": "react-scripts start",
