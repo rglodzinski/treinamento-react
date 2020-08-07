@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "./menu.scss";
 
 const Menu = () => {
-
     return (
         <nav>
             <ul className="menu">
