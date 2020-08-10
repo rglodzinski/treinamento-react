@@ -1,7 +1,7 @@
-import * as React from 'react';
+import * as React from "react";
 
-export interface ITestComponent {
-    name: string;
+type ITestComponent = {
+    name: String;
 }
 
 const TestComponent = (props: ITestComponent) => {
