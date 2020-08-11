@@ -1,20 +1,42 @@
 import React from "react";
 
-const NumberList = props => {
+const NumberList = (props) => {
+  const ListItem = (props) => (
+    <li>
+      {props.identificador} - {props.value}
+    </li>
+  );
 
-    const ListItem = props => (<li>{props.value}</li>);
+  props.items.forEach((element) => {
+    console.log("Elemento: ", element);
+  });
 
-    const items = props.items;
-
-    const listItems = items.map(item =>
-        <ListItem key={item.id} value={item.value} />
-    );
-
+  const listItems = props.items.map(function (item) {
     return (
-        <ul>
-            {listItems}
-        </ul>
+      <ListItem
+        identificador={item.identificador}
+        key={item.identificador}
+        value={item.value}
+      />
     );
+  });
+
+  const lista = props.items.map(function (item) {
+    return (
+      <ListItem
+        identificador={item.identificador}
+        key={item.identificador}
+        value={item.value}
+      />
+    );
+  });
+
+  return (
+    <div>
+      <ul>{listItems}</ul>
+      <ul>{lista}</ul>
+    </div>
+  );
 };
 
 export default NumberList;

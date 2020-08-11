@@ -5,15 +5,14 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import "./index.css";
 
-
 // import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 // import Aula1 from "./aula1/components";
-// import Aula2 from "./aula2/components";
+import Aula2 from "./aula2/components";
 // import Aula3 from "./aula3";
 // import Aula4 from "./aula4";
-import Aula5 from "./aula5";
+// import Aula5 from "./aula5";
 
 /*
 ReactDOM.render(
@@ -73,14 +72,12 @@ ReactDOM.render(
 );
 */
 
-/*
 ReactDOM.render(
   <React.StrictMode>
     <Aula2 />
   </React.StrictMode>,
   document.getElementById("root")
 );
-*/
 
 /*
 ReactDOM.render(
@@ -100,12 +97,14 @@ ReactDOM.render(
 );
 */
 
+/*
 ReactDOM.render(
   <React.StrictMode>
     <Aula5 />
   </React.StrictMode>,
   document.getElementById("root")
 );
+*/
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

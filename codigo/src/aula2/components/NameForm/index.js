@@ -1,34 +1,60 @@
 import React, { Component } from "react";
 
 class NameForm extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { value: "" };
+  constructor(props) {
+    super(props);
 
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
+    this.state = {
+      nome: "",
+      cpf: "",
+      idade: null
+    };
 
-    handleChange(event) {
-        this.setState({ value: event.target.value });
-    }
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.idadeRef = React.createRef();
+  }
 
-    handleSubmit(event) {
-        alert("Um nome foi enviado: " + this.state.value);
-        event.preventDefault();
-    }
+  handleChange(event) {
+    this.setState({ [event.target.name]: event.target.value });
+  }
 
-    render() {
-        return (
-            <form onSubmit={this.handleSubmit}>
-                <label>
-                    Nome:
-              <input type="text" value={this.state.value} onChange={this.handleChange} />
-                </label>
-                <input type="submit" value="Enviar" />
-            </form>
-        );
-    }
+  handleSubmit(event) {
+    alert(
+      `Valores submetidos: NOME=${this.state.Nome}, CPF=${this.state.cpf}, IDADE=${this.idadeRef.current.value}`
+    );
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label>
+          Nome:
+          <input
+            name="nome"
+            type="text"
+            value={this.state.nomeDaVariavel}
+            onChange={this.handleChange}
+          />
+        </label>
+        <label>
+          CPF:
+          <input
+            name="cpf"
+            type="text"
+            value={this.state.cpf}
+            onChange={this.handleChange}
+          />
+        </label>
+        <label>
+          IDADE:
+          <input type="text" ref={this.idadeRef} />
+        </label>
+        <input type="submit" value="Enviar" />
+      </form>
+    );
+  }
 }
 
 export default NameForm;
