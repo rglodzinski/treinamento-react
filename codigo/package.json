@@ -19,6 +19,7 @@
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "dtp-react-components": "git+https://www-scm.prevnet/copd/dtp-react-components.git",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
     "libicons": "git+https://www-scm.prevnet/copd/libicons.git",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
