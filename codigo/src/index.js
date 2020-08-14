@@ -6,11 +6,11 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
-import Aula3 from "./aula3";
+import Aula5 from "./aula5";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Aula3 />
+    <Aula5 />
   </React.StrictMode>,
   document.getElementById("root")
 );
