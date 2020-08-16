@@ -6,13 +6,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
-import Aula4 from "./aula4";
+import Aula5 from "./aula5";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Aula4 />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+ReactDOM.render(<Aula5 />, document.getElementById("root"));
 
 serviceWorker.unregister();
