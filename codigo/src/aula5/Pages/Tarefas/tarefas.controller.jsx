@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ListaTarefas from "./tarefas.list";
-// import actions from "./actions-fetch";
-import actions from "./actions-axios";
+import actions from "./actions-fetch";
+// import actions from "./actions-axios";
 
 const Tarefas = () => {
   const [tarefas, setTarefas] = useState([]);
