@@ -17,6 +17,7 @@
     "@types/node": "^14.0.27",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
+    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "dtp-react-components": "git+https://www-scm.prevnet/copd/dtp-react-components.git",
@@ -57,6 +58,7 @@
     ]
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "tslint": "^6.1.3",
     "tslint-react": "^5.0.0"
   },
