@@ -1,33 +1,23 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
-import { ptBR } from "@material-ui/core/locale";
+import { Provider } from "react-redux";
 
 import Menu from "./Layout/Menu";
 import Routes from "./routes";
 
-const App = () => {
-  const theme = createMuiTheme(
-    {
-      palette: {
-        primary: { main: "#1976d2" }
-      }
-    },
-    ptBR
-  );
+import store from "./redux/store";
 
+const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <Provider store={store}>
       <Router>
-        <React.Fragment>
-          <Menu />
-          <br />
-          <div className="container">
-            <Routes />
-          </div>
-        </React.Fragment>
+        <Menu />
+        <br />
+        <div className="container">
+          <Routes />
+        </div>
       </Router>
-    </ThemeProvider>
+    </Provider>
   );
 };
 

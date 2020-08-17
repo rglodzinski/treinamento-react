@@ -31,7 +31,7 @@ const editar = async tarefa => {
 };
 
 const excluir = async tarefa => {
-  const response = await fetch(`${TAREFAS_API_BASE_URL}/${tarefa._id}`, {
+  await fetch(`${TAREFAS_API_BASE_URL}/${tarefa._id}`, {
     method: "DELETE",
     headers: jsonHeaders,
     body: JSON.stringify(tarefa)
