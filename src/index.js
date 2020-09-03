@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import "bootstrap/dist/css/bootstrap.css";
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
-);
+import "./index.css";
+import * as serviceWorker from "./serviceWorker";
+
+import Aula4 from "./aula4";
+
+ReactDOM.render(<Aula4 />, document.getElementById("root"));
+
+serviceWorker.unregister();
