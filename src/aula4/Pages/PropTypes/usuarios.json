@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "nome": "Ricardo Glodzinski",
+    "cpf": 12345678909,
+    "idade": 34,
+    "telefones": [
+      {
+        "id": 4,
+        "ddd": 48,
+        "numero": 38774990,
+        "tipo": "PROFISSIONAL"
+      },
+      {
+        "id": 5,
+        "ddd": 48,
+        "numero": 991887744,
+        "tipo": "CELULAR"
+      },
+      {
+        "id": 6,
+        "ddd": 48,
+        "numero": 32068855,
+        "tipo": "RESIDENCIAL"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "José da Silva",
+    "cpf": 29694855517,
+    "idade": 56,
+    "telefones": [
+      {
+        "id": 1,
+        "ddd": 21,
+        "numero": 40953025,
+        "tipo": "PROFISSIONAL"
+      },
+      {
+        "id": 2,
+        "ddd": 21,
+        "numero": 987556622,
+        "tipo": "CELULAR"
+      },
+      {
+        "id": 3,
+        "ddd": 21,
+        "numero": 30142558,
+        "tipo": "RESIDENCIAL"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Jorge Amado",
+    "cpf": "125CDE65847899",
+    "idade": 85,
+    "telefones": [
+      {
+        "id": 7,
+        "ddd": 21,
+        "numero": 40953025,
+        "tipo": "PROFISSIONAL"
+      }
+    ]
+  }
+]
