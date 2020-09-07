@@ -1,13 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import "bootstrap/dist/css/bootstrap.css";
-
-import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
-import Aula5 from "./aula5";
+import App from "./App";
 
-ReactDOM.render(<Aula5 />, document.getElementById("root"));
-
-serviceWorker.unregister();
+ReactDOM.render(<App />, document.getElementById("root"));
+serviceWorker.register();

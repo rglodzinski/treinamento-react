@@ -1,3 +1,11 @@
+# Curso de React JS
+
+## Backend: https://www-scm.prevnet/ricardo.glodzinski/tarefas-app
+http://10.107.5.150/api/tasks/
+
+
+# Create-React-App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

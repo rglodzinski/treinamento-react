@@ -1,5 +1,0 @@
-*.~lock*
-*.log
-*.lock
-node_modules/
-build/
