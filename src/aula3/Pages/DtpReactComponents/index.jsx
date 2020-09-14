@@ -6,8 +6,11 @@ import {
   DtpPageHeader,
   DtpButton
 } from "dtp-react-components";
-import "starscream-theme/dist/css/default.min.css";
-import "starscream-theme/dist/css/rfb.min.css";
+import "starscream-theme/dist/css/default.css";
+import "starscream-theme/dist/css/rfb.css";
+import "starscream-theme/dist/css/inss.css";
+import "starscream-theme/dist/css/mtb.css";
+import "starscream-theme/dist/css/dsgov.css";
 import "libicons/libicons/style.css";
 
 const DtpReactComponents = () => {
@@ -20,7 +23,7 @@ const DtpReactComponents = () => {
   const homeHeader = <DtpPageHeader title="Página Inicial" />;
 
   return (
-    <div className="rfb-theme">
+    <div className="dsgov-theme">
       <DtpHeader homeUrl="/" appInfo={appInfo} />
       <DtpContent>
         <DtpContentContainer pageHeader={homeHeader}>

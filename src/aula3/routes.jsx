@@ -11,22 +11,24 @@ import MaterialUI from "./Pages/MaterialUI";
 import DtpReactComponents from "./Pages/DtpReactComponents";
 import DSGov from "./Pages/DSGov";
 import WebComponents from "./Pages/WebComponents";
+import FormularioGrande from "./Pages/FormularioGrande";
 
 const Routes = () => {
-    return (
-        <Switch>
-            <Route exact path="/" component={Painel} />
-            <Route path="/sobre" component={Sobre} />
-            <Route path="/usuarios" component={Usuarios} />
-            <Route path="/topicos" component={Topicos} />
-            <Route path="/css" component={UsoDeCss} />
-            <Route path="/bootstrap" component={Bootstrap} />
-            <Route path="/material-ui" component={MaterialUI} />
-            <Route path="/drc" component={DtpReactComponents} />
-            <Route path="/dsgov" component={DSGov} />
-            <Route path="/wc" component={WebComponents} />
-        </Switch>
-    );
+  return (
+    <Switch>
+      <Route exact path="/" component={Painel} />
+      <Route path="/sobre" component={Sobre} />
+      <Route path="/usuarios" component={Usuarios} />
+      <Route path="/topicos" component={Topicos} />
+      <Route path="/css" component={UsoDeCss} />
+      <Route path="/bootstrap" component={Bootstrap} />
+      <Route path="/material-ui" component={MaterialUI} />
+      <Route path="/drc" component={DtpReactComponents} />
+      <Route path="/dsgov" component={DSGov} />
+      <Route path="/wc" component={WebComponents} />
+      <Route path="/fg" component={FormularioGrande} />
+    </Switch>
+  );
 };
 
 export default Routes;

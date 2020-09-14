@@ -37,6 +37,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "remove": "^0.1.5",
+    "smart-webcomponents-community": "^7.7.1",
     "starscream-theme": "https://github.com/rglodzinski/treinamento-react/raw/master/starscream-theme-2.3.7.tar.gz",
     "typescript": "^3.9.7"
   },
