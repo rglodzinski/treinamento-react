@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://localhost/curso-react",
   "dependencies": {
-    "@govbr/design-system": "file:dsgov-latest.tgz",
+    "@govbr/design-system": "https://github.com/rglodzinski/treinamento-react/raw/master/dsgov-latest.tgz",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@polymer/iron-icons": "^3.0.1",
@@ -21,9 +21,9 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
-    "dtp-react-components": "file:dtp-react-components-0.3.9.tar.gz",
+    "dtp-react-components": "https://github.com/rglodzinski/treinamento-react/raw/master/dtp-react-components-0.3.9.tar.gz",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "libicons": "file:libicons-3.0.19.tar.gz",
+    "libicons": "https://github.com/rglodzinski/treinamento-react/raw/master/libicons-3.0.19.tar.gz",
     "material-table": "^1.68.1",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
@@ -37,7 +37,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "remove": "^0.1.5",
-    "starscream-theme": "file:starscream-theme-2.3.7.tar.gz",
+    "starscream-theme": "https://github.com/rglodzinski/treinamento-react/raw/master/starscream-theme-2.3.7.tar.gz",
     "typescript": "^3.9.7"
   },
   "scripts": {
