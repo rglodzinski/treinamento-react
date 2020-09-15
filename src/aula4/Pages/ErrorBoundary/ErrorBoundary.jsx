@@ -15,6 +15,7 @@ class ErrorBoundary extends Component {
       return (
         <div>
           <h2>Ocorreu um erro inesperado.</h2>
+          <p>{this.state.errorInfo.componentStack}</p>
         </div>
       );
     }
