@@ -15,6 +15,7 @@ const ReduxPage = props => {
 
   useEffect(() => {
     props.carregar();
+    // eslint-disable-next-line
   }, []);
 
   const acoes = {

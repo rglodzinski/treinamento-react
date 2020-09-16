@@ -4,7 +4,7 @@ import * as serviceWorker from "./serviceWorker";
 
 import "bootstrap/dist/css/bootstrap.css";
 
-import Aula4 from "./aula4";
+import Aula5 from "./aula5";
 
-ReactDOM.render(<Aula4 />, document.getElementById("root"));
+ReactDOM.render(<Aula5 />, document.getElementById("root"));
 serviceWorker.register();
